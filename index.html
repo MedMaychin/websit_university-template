@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=\, initial-scale=1.0">
+    <title>Website Using HTML & CSS</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com"> 
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+</head>
+<body>
+
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="img/logo.png" alt=""></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Course</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+        <div class="text-box">
+            <h1>World Biggest University</h1>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloremque obcaecati labore odio,<br> aut dolorem quos delectus quo temporibus voluptatem necessitatibus ipsum!<br> In consequatur consectetur sequi dolor ullam perferendis corrupti repudiandae?</p>
+            <a href="#" class="hero-btn">Vist to know more</a>
+        </div>
+    </section>
+
+    <section class="course">
+        <h1 class="h1-c">Course We Offer</h1>
+        <p class="p-c">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+
+        <div class="row">
+            <div class="course-col">
+                <h3 class="h3-course">Intermediate</h3>
+                <p class="p-course" >Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloremque obcaecati labore odio.</p>
+            </div>
+            <div class="course-col">
+                <h3 class="h3-course">Degree</h3>
+                <p class="p-course" >Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloremque obcaecati labore odio.</p>
+            </div>
+            <div class="course-col">
+                <h3 class="h3-course">Post Graduation</h3>
+                <p class="p-course" >Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloremque obcaecati labore odio.</p>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="campus">
+        <h1 class="h1-c ">Our Global Campus</h1>
+        <p class="p-c " >Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloremque obcaecati labore odio.</p>
+        <div class="row">
+            <div class="campus-col">
+                <img class="img-col" src="img/1.jpg" alt="">
+                <div class="layer">
+                    <h3 class="h3-campus">LosAnglos</h3>
+                </div>
+            </div>
+            <div class="campus-col">
+                <img class="img-col" src="img/campus2.jpg " alt="">
+                <div class="layer">
+                    <h3 class="h3-campus">Paris</h3>
+                </div>
+            </div>
+            <div class="campus-col">
+                <img class="img-col" src="img/campus1.jpg" alt="">
+                <div class="layer">
+                    <h3 class="h3-campus">Egypt</h3>
+                </div>
+            </div>
+        </div>
+    </section> 
+
+    <section class="facilities">
+        <h1 class="h1-c">Our Facilities</h1>
+        <p class="p-c" >Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloremque obcaecati labore odio.</p>
+
+        <div class="row">
+            <div class="facilities-col">
+                <img class="img-fac" src="img/library.jpg" alt="">
+                <h3 class="h3-fac">World Class Library</h3>
+                <p class="p-fac" >Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloremque obcaecati labore odio.</p>
+            </div>
+            <div class="facilities-col">
+                <img class="img-fac" src="img/basketball.png" alt="">
+                <h3 class="h3-fac">Largest Play Ground</h3>
+                <p class="p-fac" >Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloremque obcaecati labore odio.</p>
+            </div>
+            <div class="facilities-col">
+                <img class="img-fac" src="img/cafeteria.png" alt="">
+                <h3 class="h3-fac">Tasty and Healthy Food</h3>
+                <p class="p-fac" >Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloremque obcaecati labore odio.</p>
+            </div>
+        </div>
+    </section>
+ 
+
+        <!-- call to acftion -->
+    <section class="cta">
+        <h1 class="h1-cta">Enroll for our various online courses Anywhere from The Worls</h1>
+        <a href="#" class="hero-btn">Contact</a>
+    </section>
+
+
+    <section class="footer">
+        <h4 class="h4-footer">About us</h4>
+        <p class="p-footer">Lorem ipsum dolor sit amet consectetur adipisicing elit.<br>Omnis iste saepe eligendi alias nostrum cumque soluta suscipit doloribus,<br>aspernatur officiis quidem labore doloremque et veritatis ducimus ratione nihil eius temporibus?</p>
+        <div class="icons">
+            <i class="fa fa-facebook" ></i>
+            <i class="fa fa-twitter" ></i>
+            <i class="fa fa-instagram" ></i>
+            <i class="fa fa-linkedin" ></i>
+
+        </div>
+        <p>Made with <i class="fa fa-heart-o"> </i>
+        MED MAY</p>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
